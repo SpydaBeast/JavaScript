@@ -1,10 +1,13 @@
 /**
- * Created by Brien on 9/8/2016.
+ * Original project https://github.com/Asharm26 Brien's branch on 9/8/2016.
  */
+
 var f = document.getElementById('image');
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 
+
+/**************Comment by Brien Calloway date: 9/8/2016**********************************
 var extents =
 {
     tlX: 0, tlY: 0,  //top-left-x & y
@@ -14,8 +17,10 @@ var extents =
     brX: 0, brY: 0
 };
 
-/**************Comment by Brien Calloway date: 9/8/2016**********************************/
-/********This code block is not supported in my idea - I'm running intellJ 15.0.2********
+**/
+
+
+/********This code block is not supported in my ide - I'm running intellJ 15.0.2********
 
 var resizers =``				//this OBJECT will hold the coordinates of
 {												//the draggers for the crop rectangle
